@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane2" max="32767" attributes="0"/>
+          <Component id="jLabel1" alignment="0" pref="940" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="573" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea2">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="This system is a modern attendance management solution powered by AI-based face recognition. It eliminates the need for manual or ID-based&#xa; attendance by using facial features to identify and mark attendance securely and automatically.&#xa;&#xa;Key Features:&#xa;                     Real-time Face Recognition using state-of-the-art InsightFace (ArcFace + RetinaFace)&#xa;                     Secure &amp; Reliable: Only registered faces are recognized&#xa;                     Automatic Cooldown: Prevents multiple entries within 5 seconds&#xa;                     Student &amp; Teacher Mode for role-based access&#xa;                     MySQL Database Integration for storing attendance logs&#xa;                     Java Swing or Flask UI for user interaction&#xa;                     Webcam-based live image processing&#xa;&#xa;Technology Stack:&#xa;                      Backend: Python &#xa;                      Face Recognition: InsightFace (buffalo_s, ArcFace, RetinaFace)&#xa;                      Frontend: Java Swing&#xa;                      Database: MySQL&#xa;                      Others: OpenCV, Tkinter, threading/multiprocessing&#xa;How It Works:&#xa;                       Registration: The user provides a face image or captures it via webcam.&#xa;                       Detection: When the system is running, it continuously scans faces using the webcam.&#xa;                       Verification: Matches the detected face with the registered dataset using InsightFace.&#xa;                       UI Panel: User interface shows dashboard, user registration, view logs, etc.&#xa;Motivation:&#xa;                 Traditional attendance methods (manual, RFID, card swipes) are time-consuming, prone to fraud, or require expensive hardware. This&#xa;                 project provides an efficient, low-cost, and AI-driven alternative tailored for schools, colleges, and offices.&#xa;Developed By:   Manu Kumar &#xa;Guided By :        Rakesh Kumar Godi Sir"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="16" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="                                                                 AI Face Attendance Managment System"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
